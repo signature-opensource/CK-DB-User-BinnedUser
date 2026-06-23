@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Description>FOR TESTS ONLY. Sample consumer package that transforms CK.sUserArchive/CK.sUserRestore through their injection points, used to test the extension mechanism of CK.DB.User.BinnedUser.</Description>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CK.DB.User.BinnedUser\CK.DB.User.BinnedUser.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="**\*.sql;**\*.tql;**\*.y4" />
+  </ItemGroup>
+</Project>

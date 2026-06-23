@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE" />
+    <File Path="nuget.config" />
+    <File Path="Common/PackageIcon.png" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/CK.DB.User.BinnedUser.Tests/CK.DB.User.BinnedUser.Tests.csproj" />
+    <Project Path="Tests/CK.DB.User.BinnedUser.TestExtension/CK.DB.User.BinnedUser.TestExtension.csproj" />
+    <Project Path="Tests/CK.DB.User.BinnedUser.TestExtension.Tests/CK.DB.User.BinnedUser.TestExtension.Tests.csproj" />
+  </Folder>
+  <Project Path="CK.DB.User.BinnedUser/CK.DB.User.BinnedUser.csproj" />
+  <Project Path="CK.IO.User.BinnedUser/CK.IO.User.BinnedUser.csproj" />
+</Solution>

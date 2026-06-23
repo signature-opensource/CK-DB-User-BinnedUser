@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Description>Tests the sUserArchive/sUserRestore injection points via the CK.DB.User.BinnedUser.TestExtension consumer package (uses CK.DB.Tests.NUnit).</Description>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CK.DB.User.BinnedUser.TestExtension\CK.DB.User.BinnedUser.TestExtension.csproj" />
+    <PackageReference Include="CK.DB.Tests.NUnit" Version="33.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.5.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="6.2.0" />
+  </ItemGroup>
+</Project>

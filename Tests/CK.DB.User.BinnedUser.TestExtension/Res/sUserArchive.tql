@@ -1,0 +1,9 @@
+-- SetupConfig: {}
+--
+-- Demonstrates the ArchiveSecurityCheck injection point: this consuming package re-opens the
+-- access by forcing @CanContinue to 1 (a real package would apply its own rule here).
+create transformer on CK.sUserArchive
+as
+begin
+    inject "set @CanContinue = 1;" into "ArchiveSecurityCheck";
+end
