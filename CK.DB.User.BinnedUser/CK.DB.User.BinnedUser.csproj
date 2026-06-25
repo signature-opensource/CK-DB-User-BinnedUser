@@ -4,7 +4,7 @@
     <Description>This package adds a BinDate to CK.tUser and the sUserArchive/sUserRestore procedures (soft-delete / recycle bin for users).</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CK.DB.Actor" Version="28.0.2" />
+    <PackageReference Include="CK.DB.Actor" Version="28.0.3--ci.1" />
     <PackageReference Include="CK.SqlServer.Transaction" Version="12.0.1" />
   </ItemGroup>
   <ItemGroup>
